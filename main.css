@@ -1,0 +1,98 @@
+.navbar{
+    border-radius: 0 0 15% 15%;
+    border-bottom: 5px solid green;
+}
+body{
+    background-color: white
+}
+
+.titulo1{ 
+  color: darkcyan;
+ font-size: 100px;
+ text-align: center;
+}
+#sub1{
+  color: blue;
+  font-weight: bolder;
+}
+
+ .banner{
+	width: 100%;
+	height: 600px;
+	animation: banner 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes banner{
+	0%, 20%{
+		background-image: url("http://ceo.upc.edu/wp-content/uploads/2017/02/re-zero-anime-speculations-is-rems-story-arc-not-over-1-672x315.jpg");
+	}
+	25%, 45%{
+		background-image: url("http://capitalcomic.com/wp-content/uploads/2019/07/Boku-no-hero-900x506.jpg");
+	}
+	50%, 70%{
+		background-image: url("https://i.pinimg.com/originals/b1/42/42/b142422d4936bf4fb482a3f0ce596410.jpg");
+	}
+	75%, 100%{
+		background-image: url("https://filmfilicos.com/wp-content/uploads/2019/11/2-1.png");
+	}
+}
+footer{
+  text-align: center;
+  background-color: lightblue;
+  margin: auto;
+  font-size: 24px;
+  font-weight: bolder;
+  
+}
+.banerm{
+	width: 100%;
+	height: 600px;
+	animation: banerm 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes banerm{
+	0%, 20%{
+		background-image: url("https://www.eltiempo.com/files/image_640_428/uploads/2020/12/18/5fdd4b1ad5d1f.jpeg");
+	}
+	25%, 45%{
+		background-image: url("https://i.pinimg.com/564x/cc/e3/7c/cce37c18ba20016bfa3a3b2f89838401.jpg");
+	}
+	50%, 70%{
+		background-image: url("https://i.blogs.es/0ec27f/memess/450_1000.jpg");
+	}
+	75%, 100%{
+		background-image: url("https://imagenes.razon.com.mx/files/image_640_434/uploads/2020/12/09/5fd12f2ece3f1.jpeg");
+	}
+}
+.banerj{
+	width: 100%;
+	height: 600px;
+	animation: banerj 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes banerj{
+	0%, 20%{
+		background-image: url("https://www.residentevil.com/village/assets/images/common/share.png");
+	}
+	25%, 45%{
+		background-image: url("https://compass-ssl.xbox.com/assets/9c/94/9c944d9c-7ef1-4b46-9f68-9b02966d3993.jpg?n=Halo-Infinite_GLP-Page-Hero-0_1083x609.jpg");
+	}
+	50%, 70%{
+		background-image: url("https://sm.ign.com/ign_latam/screenshot/default/gears5-1_cd4g.jpg");
+	}
+	75%, 100%{
+		background-image: url("https://9to5fortnite.com/wp-content/uploads/2021/08/metroid-dread.jpg");
+	}
+}
