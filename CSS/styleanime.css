@@ -41,7 +41,7 @@ body{
     }
     #Barradevideos li{
         display: inline-block;
-        margin: 0px;
+        margin: auto;
         }
 #diviciones{
 width:50%;
@@ -52,4 +52,43 @@ font-size: 50px;
 background: rgb(158, 211, 109);
 font-weight: bolder;
 }
-    
+  #NN{
+      width: 500px;
+      hyphens: 80PX;
+      color: white;
+      text-align: center;
+      background-color: black
+  }  
+  #gif{
+      width: 100px;
+      height: 100px;
+      float: right;
+  }
+  #Boton h1{
+
+color: rgb(252, 252, 252);
+font-family: cursive;
+font-size: 50px;
+text-align: center;
+text-decoration: none;
+}
+#Boton{
+    width: 600px;
+    height: 200px; 
+    background-color: red;
+    margin: auto;
+    display: block;
+}
+#Boton a :hover{
+    box-shadow: rebeccapurple;
+}
+#Boton #b2{
+    width: 150px;
+    height: 150px;  
+    float: left;
+}
+#Boton #b1{
+    width: 150px;
+    height: 150px; 
+    float: right;   
+}

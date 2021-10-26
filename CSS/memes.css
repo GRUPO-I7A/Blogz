@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../img/descarga.jfif")
+}
+.ib h1 {
+	font-size: 8vw;
+	font-weight: 900;
+color: orange;
+	display: block;
+	padding: .5em;
+    text-align: center;
+}
+.ib img{
+     width: 20%px;
+  height: 20%;
+  display: inline-block;
+}
+h2{
+    font-size: 6vw;  
+    text-align: left; 
+    color: white;
+    font-weight: bolder;
+}
+.contenedor-galeria{
+	width:80%;
+	height:40%;
+	margin: left;
+}
+.contenedor-galeria img{
+    width: 20%;
+    height: 20%;
+    display: inline-table;
+    
+}
+.contenedor-galeria img :hover{
+    box-shadow: turquoise;
+}

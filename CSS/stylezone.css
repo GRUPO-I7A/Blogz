@@ -1,0 +1,41 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+body{
+background: lightblue;
+}
+h1{
+color: rgba(215, 16, 233, 0.952);
+font-weight: bolder;
+text-shadow: black;
+text-align: center;
+}
+
+#cont iframe{
+align-content: center;
+    background: chartreuse;
+}
+#Boton{
+    width: 600px;
+    height: 200px; 
+    background-color: red;
+    margin: auto;
+    display: block;
+
+}
+#Boton a :hover{
+    box-shadow: rebeccapurple;
+
+}
+
+#Boton #b2{
+    width: 150px;
+    height: 150px;  
+    float: left;
+}
+#Boton #b1{
+    width: 150px;
+    height: 150px; 
+    float: right;   
+}
